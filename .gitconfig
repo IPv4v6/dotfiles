@@ -1,0 +1,10 @@
+[alias]
+	ba = branch -a -v
+	co = checkout
+	l1 = log --decorate=short --format=oneline --graph
+	l2 = log --decorate=short --format=short --graph
+	l3 = log --decorate=short --format=medium --date=iso --graph
+	l4 = log --decorate=short --format=medium --date=iso --graph --stat
+	l5 = log --decorate=short --format=fuller --date=iso --graph --stat
+	pom = push origin master
+	s = status
