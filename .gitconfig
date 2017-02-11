@@ -1,3 +1,6 @@
+[core]
+	editor = vim
+
 [alias]
 	ba = branch -a -v
 	co = checkout
