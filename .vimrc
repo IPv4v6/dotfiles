@@ -6,3 +6,4 @@ set number
 set cursorline
 set colorcolumn=80
 highlight ColorColumn ctermbg=236
+set listchars=eol:#,tab:>-,trail:°
