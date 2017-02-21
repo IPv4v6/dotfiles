@@ -1,0 +1,6 @@
+startup_message off
+logfile screen-%H-%t-%Y-%m-%d.log
+deflog on
+defscrollback 1000
+hardstatus on
+hardstatus alwayslastline "%H / %Y-%m-%d %c:%s"
