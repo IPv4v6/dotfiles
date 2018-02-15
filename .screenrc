@@ -1,6 +1,6 @@
 startup_message off
-logfile screen-%H-%t-%Y-%m-%d.log
+logfile screen-%H-%t-%S-%Y-%m-%d_%0c:%s.log
 deflog on
 defscrollback 1000
 hardstatus on
-hardstatus alwayslastline "%H / %Y-%m-%d %c:%s"
+hardstatus alwayslastline "%H / %S / %Y-%m-%d %0c:%s"
