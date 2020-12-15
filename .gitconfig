@@ -4,6 +4,10 @@
 [alias]
 	ba = branch -a -v
 	co = checkout
+	d = diff
+	dc = diff --cached
+	dw = diff --word-diff
+	dcw = diff --cached --word-diff
 	l1 = log --decorate=short --format=oneline --graph
 	l2 = log --decorate=short --format=short --graph
 	l3 = log --decorate=short --format=medium --date=iso --graph
